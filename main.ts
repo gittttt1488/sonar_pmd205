@@ -3,7 +3,7 @@ basic.forever(function () {
     sona = sonar.ping(
     DigitalPin.P1,
     DigitalPin.P0,
-    PingUnit.MicroSeconds
+    PingUnit.Centimeters
     )
     basic.showNumber(sona)
 })
