@@ -5,4 +5,5 @@ basic.forever(function () {
     DigitalPin.P1,
     PingUnit.Inches
     )
+    basic.showNumber(sona)
 })
