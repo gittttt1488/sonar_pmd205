@@ -6,4 +6,6 @@ basic.forever(function () {
     PingUnit.Centimeters
     )
     basic.showNumber(sona)
+    basic.pause(500)
+    basic.showIcon(IconNames.Yes)
 })
