@@ -1,9 +1,9 @@
 let sona = 0
 basic.forever(function () {
     sona = sonar.ping(
-    DigitalPin.P2,
     DigitalPin.P1,
-    PingUnit.Inches
+    DigitalPin.P0,
+    PingUnit.MicroSeconds
     )
     basic.showNumber(sona)
 })
